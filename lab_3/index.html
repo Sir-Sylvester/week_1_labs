@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Gallery Container -->
+    <div class="gallery-container">
+        <!-- Thumbnails will be dynamically added here by JavaScript -->
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close">&times;</button>
+            <img src="" alt="Full size image" id="lightbox-img">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+            <button class="lightbox-button prev" id="prev-button">&laquo; Previous</button>
+            <button class="lightbox-button next" id="next-button">Next &raquo;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
